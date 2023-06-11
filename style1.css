@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.hero{
+    width: 100%;
+    background-color: rgb(220, 220, 220);
+    padding-bottom: 50px;
+}
+.hero-center{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.sub-div{
+    font-size: 1.2rem;
+    display: flex;
+    align-items: flex-start;
+    font-weight: bold;
+}
+
+.hero h1{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.objasnjenje{
+    font-size: 12px;
+}
+
+.sub-div p{
+    padding-right: 30px;
+}
+
+.sub-div .data{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.wltp-data{
+    display: flex;
+
+}
+
+.wltp-data .data{
+    font-size:1.5rem ;
+    padding-right: 50px;
+}
+
+h3{
+    margin-bottom: 0.5rem;
+    color: rgb(120, 120, 120);
+}
+
+.teh-spc{
+    width: 90%;   
+    display: flex;
+    justify-content: center;
+}
+
+.teh-spc h3{
+    font-size: 2rem;
+    color: black;
+}
+
+.left{
+    width: 50%;
+    margin-top: 70px;
+}
+
+.spec{
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid lightgray;
+    width: 70%;
+}
+
+.spec p{
+    margin-right: 20px;
+}
+
+.silueta{
+    width:30%;
+    margin-top: 100px;
+}
+
+.spec .data{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+footer{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+}

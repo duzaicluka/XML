@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    background-color: lightgray;
+}
+
+table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+label{
+    font-weight: bold;
+}
+
+img{
+    width: 25%;
+    
+}
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+input{
+    margin-bottom: 20px;
+}
+
+.gumb{
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.gumb{
+    width: 100%;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.gumb:hover{
+    color: white;
+    background-color: red;
+
+}

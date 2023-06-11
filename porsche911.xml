@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<porsche>
+    <horsepow>386 kW/525 PS</horsepow>
+    <acceleration>3,2 s</acceleration>
+    <top_spd>296 km/h</top_spd>
+    <potrosnja>13,4</potrosnja>
+    <emisija>305</emisija>
+    <br_cilindra>6</br_cilindra>
+    <promjer_klipa>102,00 mm</promjer_klipa>
+    <hod_klipa>81,5 mm</hod_klipa>
+    <zapremnina>3.996 cm3</zapremnina>
+    <snagakw>386 kW</snagakw>
+    <snagahp>525 PS</snagahp>
+    <rpmnm>8.500 1/min</rpmnm>
+    <rpmmax>9.000 1/min</rpmmax>
+    <okretnimoment>465 Nm</okretnimoment>
+    <rpmmaxnm>6.300 1/min</rpmmaxnm>
+</porsche>

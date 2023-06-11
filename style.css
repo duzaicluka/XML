@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-decoration: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav .name{
+    font-size: 3rem;
+    font-weight: bolder
+}
+
+.logo{
+    width: 8%;
+    height: 10vh;
+    border: 1px solid black;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+.hero-pic{
+    width: 100%;
+    height: 80vh;
+}
+
+.text-in-hero{
+    position: absolute;
+    top: 4rem;
+    left: 7rem;
+    color: white;
+}
+
+.text-in-hero h1{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+.text-in-hero h2{
+    font-size: 2.5rem;
+    margin-left: 3.5rem;
+}
+
+.red{
+    color: red;
+}
+
+.model{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.model-wrapper{
+    width: 85%;
+}
+
+.top-model{
+    color: white;
+    text-align: center;
+}
+
+.top-model h1{
+    padding-top: 5rem;
+    font-size: 6rem;
+}
+
+.top-model h2{
+    font-size: 1rem;
+}
+
+.middle-model{
+    display: flex;
+    justify-content: center;
+}
+
+.car-img{
+  width: 50%; 
+}
+
+.lower-model{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.lower-model .upper-data{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.data{
+    margin: 40px;
+    text-align: center;
+    font-size: 2rem;
+}
+.data .objasnjenje{
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.lower-data{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.eco{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.eco h3{
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.potrosnja h6{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.eco h6{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.more-details-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.more-details-btn a{
+    font-size: 1.2rem;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+}
+.more-details-btn a:hover{
+    color: red;
+    border: 1px solid red;
+}
+
+footer{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+}
